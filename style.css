@@ -1,0 +1,188 @@
+﻿body {
+    background-color: #f5f5f5;
+    font-family: Inter;
+    margin:0;
+}
+
+header {
+    background-color: black;
+    color: #ED7D31;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height:12.5vh;
+    vertical-align:middle;
+    position:fixed;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 24px;
+}
+
+p {
+    font-family: Inter;
+    font-size: 1.2rem;
+}
+/*début Welcome */
+
+.welcome {
+    color: #173396;
+    padding-top:12.5vh;
+    height:87.5vh;
+    background-color: grey;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.welcome-textside{
+    width:65%;
+    height:80%;
+    color: white;
+    
+    
+}
+.welcome-imageside {
+    width: 25%;
+    height: 80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.fausseimg
+{
+    width:50vh;
+    height:87.5vh;
+    display: flex;
+}
+
+
+/*fin Welcome */
+
+.interests {
+    background-color: grey;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    color: white;
+    height: 100vh;
+    background-color: grey;
+}
+.about {
+    color: white;
+    height: 100vh;
+    background-color: grey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+
+nav
+{
+    height:100%;
+    vertical-align:middle;
+    width:100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+}
+
+.liennav {
+    color: white;
+    text-decoration:none;
+}
+
+h1
+{
+    margin:0;
+}
+
+footer {
+    background-color: black;
+    color: #ED7D31;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6.25vh;
+}
+
+.instagram
+{
+    width: 64px;
+    height: 64px;
+}
+.twitter {
+    width: 64px;
+    height: 64px;
+}
+.facebook {
+    width: 64px;
+    height: 64px;
+}
+.linkedin {
+    width: 64px;
+    height: 64px;
+}
+.youtube {
+    width: 64px;
+    height: 64px;
+}
+
+.spiderman {
+    width: 450px;
+    height: 450px;
+}
+.b-envoi:hover
+{
+    background-color: red;
+}
+
+/* animation pour le bouton Envoi */
+.b-envoi:active {
+    -webkit-animation: anim 3s;
+    animation: anim 3s;
+}
+@keyframes anim {
+    100% {
+        transform: translateX(1200px);
+        opacity: 0;
+    }
+}
+.photoshop {
+    width: 32px;
+    height: 32px;
+}
+.illustrator {
+    width: 32px;
+    height: 32px;
+}
+
+.img-interets {
+    background-color: grey;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img-interets img {
+    background-color: grey;
+    width: 50%;
+}
