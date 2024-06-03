@@ -1,0 +1,112 @@
+﻿
+/* Début CSS avec le corps, l'en-tête et le pied de page. */
+
+body {
+    /* couleur par défaut */
+    background-color: #dbdbdb;
+    font-family: Arial;
+    margin:0;
+}
+
+/* en-tête */
+header {
+    background-color: black;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6.25vh;
+    vertical-align: middle;
+    position: fixed;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    font-size: 1.1rem;
+}
+
+/* pied de page */
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6.25vh;
+    margin-top: 40%;
+    font-size: 1.25rem;
+}
+
+/* bannières en-tête et pied de page */
+
+nav {
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin: 0;
+    padding-top: 1em;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: black;
+    margin: 16px;
+}
+
+i {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.liennav {
+    color: white;
+    text-decoration: none;
+}
+
+.skills {
+    color: black;
+    margin: 2em;
+}
+
+li img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.skills-textside {
+    width: 80%;
+    border: solid 3px black;
+    border-radius: 20px;
+    margin: auto;
+    text-align: justify;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+

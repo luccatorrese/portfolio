@@ -1,0 +1,144 @@
+﻿
+                                                        /* Début CSS de la page principale du portfolio */
+                                                        /* commencement avec le corps, puis l'en-tête et enfin le pied de page. */
+
+
+body {
+    /* couleur par défaut */
+    background-color: #e4e4e4;
+    font-family: 'Arial';
+    margin: auto;
+}
+
+/* en-tête */
+header {
+    background-color: black;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6vh;
+    vertical-align: middle;
+    position: fixed;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* pied de page */
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6vh;
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+/* bannières en-tête et pied de page */
+nav {
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+i {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.liennav {
+    color: white;
+    text-decoration: none;
+}
+
+/*début Welcome */
+
+.welcome {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-textside {
+    color: black;
+    text-align: justify;
+    width: 60%;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    height: 50%;
+    padding-top: 2em;
+}
+
+.welcome-imageside {
+    width: 200px;
+    height: 200px;
+    padding: 2rem;
+}
+
+.fausseimg {
+    display: none;
+}
+
+/*fin Welcome */
+
+.signature {
+    margin: auto;
+    display: block;
+    width: 10vw;
+}
+
+.photo-signature {
+    width: 55vw;
+}
+
+.bienvenue {
+    margin: 1em;
+}
+
+/* 1242×2688 pixels at 458ppi */
+@media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    .fausseimg {
+        display: none;
+    }
+
+    .welcome-textside {
+        color: black;
+        margin: auto;
+        text-align: justify;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+

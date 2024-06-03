@@ -1,0 +1,223 @@
+﻿
+/* Début CSS avec le corps, l'en-tête et le pied de page. */
+
+body {
+    /* couleur par défaut : gris clair */
+    background-color: #ffffff;
+    font-family: Inter;
+    margin:0;
+}
+
+/* en-tête */
+header {
+    background-color: black;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6.25vh;
+    vertical-align:middle;
+    position: fixed;
+    text-decoration: none;
+}
+
+/* pied de page */
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    height: 6.25vh;
+}
+
+/* bannières en-tête et pied de page */
+nav {
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-family: Inter;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+i {
+    font-family: Inter;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.liennav {
+    color: white;
+    text-decoration: none;
+}
+
+/*début Welcome */
+
+.welcome {
+    padding-top: 12.5vh;
+    height: 87.5vh;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-textside{
+    width:60%;
+    height:80%;
+    color: black;
+    
+    
+}
+.welcome-imageside {
+    width: 25%;
+    height: 80%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.fausseimg
+{
+    width:50vh;
+    height:87.5vh;
+    display: flex;
+}
+
+
+/*fin Welcome */
+
+/* arrière-plan blanc */
+
+.interests {
+    padding-top: 5vh;
+    background-color: #e0e0e0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.contact {
+    color: black;
+    height: 100vh;
+    background-color: #e0e0e0;
+    margin: 1em;
+}
+
+.about {
+    color: black;
+    height: 100vh;
+    background-color: #e0e0e0;
+    margin: 2em;
+}
+
+.instagram
+{
+    width: 64px;
+    height: 64px;
+}
+.facebook {
+    width: 64px;
+    height: 64px;
+}
+.youtube {
+    width: 64px;
+    height: 64px;
+}
+.spiderman {
+    width: 450px;
+    height: 450px;
+}
+
+/* animation pour le bouton Envoi */
+
+.b-envoi
+{
+    font-weight: bold;
+}
+.b-envoi:hover
+{
+    background-color: black;
+    color: white;
+}
+.b-envoi:active {
+    -webkit-animation: anim 2s;
+    animation: anim 2s;
+}
+@keyframes anim {
+    100% {
+        transform: translateX(1200px);
+        opacity: 0;
+    }
+}
+
+@keyframes anim {
+    100% {
+        transform: translateX(1200px);
+        opacity: 0;
+    }
+}
+
+.photoshop {
+    width: 64px;
+    height: 64px;
+}
+.illustrator {
+    width: 64px;
+    height: 64px;
+}
+
+.echecs {
+    object-fit: contain;
+    width: 256px;
+    height: 256px;
+}
+
+.ps {
+    object-fit: contain;
+    width: 256px;
+    height: 256px;
+}
+
+.img-interets {
+    background-color: #E0E0E0;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3vh;
+}
+.img-interets img {
+    background-color: #E0E0E0;
+    width: 50%;
+}
+
+.signature {
+    width: 10%;
+}
