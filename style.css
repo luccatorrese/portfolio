@@ -1,0 +1,269 @@
+﻿
+/* Début CSS de la page principale du portfolio */
+/* commencement avec le corps, puis l'en-tête et enfin le pied de page. */
+
+
+body {
+    /* couleur par défaut */
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* en-tête */
+header {
+    background: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* pied de page */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* bannières en-tête et pied de page */
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+i {
+}
+
+.liennav {
+    color: white;
+    text-decoration: none;
+}
+
+/*début Welcome */
+
+.welcome {
+}
+
+.welcome-textside {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-justify: inter-word;
+}
+
+.welcome-imageside {
+}
+
+.portrait {
+    display: none;
+}
+
+/*fin Welcome */
+
+.signature img {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+ }
+
+.bienvenue {
+    margin: 1em;
+}
+
+/* 1242×2688 pixels at 458ppi */
+@media only screen and (width: 414px) and (height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    .portrait {
+        display: none;
+    }
+
+    .welcome-textside {
+        color: black;
+        margin: auto;
+        text-align: justify;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+}
+
+.contact {
+    color: black;
+    margin: 50px 0;
+    font-size: 1.2rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.instagram {
+    width: 64px;
+    height: 64px;
+}
+
+.facebook {
+    width: 64px;
+    height: 64px;
+}
+
+.youtube {
+    width: 64px;
+    height: 64px;
+}
+
+.spiderman {
+    width: 450px;
+    height: 450px;
+}
+
+/* animation pour le bouton Envoi */
+
+.b-envoi {
+    font-weight: bold;
+}
+
+    .b-envoi:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .b-envoi:active {
+        -webkit-animation: anim 2s;
+        animation: anim 2s;
+    }
+
+@keyframes anim {
+    100% {
+        transform: translateX(1200px);
+        opacity: 0;
+    }
+}
+
+/* formulaire de contact */
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* début zone de texte */
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245); /* Fond noir */
+    color: black;
+    font-size: 20px;
+    font-family: 'Verdana';
+}
+
+/* fin zone de texte */
+
+button {
+    display: flex;
+    background-color: #303030;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-textside {
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.echecs {
+    object-fit: contain;
+    width: 256px;
+    height: 256px;
+}
+
+.ps {
+    object-fit: contain;
+    width: 256px;
+    height: 256px;
+}
+
+.img-interets {
+    max-width: 90vw;
+    height: auto;
+}
+
+.img-interets img
+{
+    display: flex;
+}
+
+.interests-textside {
+    width: 80%;
+    margin: auto;
+}
+
+.skills {
+    color: black;
+    margin: 2em;
+}
+
+li img {
+    width: 80px;
+    height: 80px;
+}
+
+.skills-textside {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
